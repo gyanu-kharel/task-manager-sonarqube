@@ -15,7 +15,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout the code from the Git repository
-                git 'https://github.com/your-username/task-manager.git'
+                git 'https://github.com/gyanu-kharel/task-manager-sonarqube'
             }
         }
 
